@@ -152,3 +152,78 @@ weather_by_month = pd.read_sql(query, engine)
 
 # View weather stats by month
 print(weather_by_month)
+
+# Query to join weather to call records by date columns
+query = """
+SELECT * 
+  FROM hpd311calls
+  JOIN weather 
+  ON hpd311calls.created_date = weather.date;
+"""
+
+# Create data frame of joined tables
+calls_with_weather = pd.read_sql(query, engine)
+
+# View the data frame to make sure all columns were joined
+print(calls_with_weather.head())
+
+# Query to get hpd311calls and precipitation values
+query = """
+SELECT hpd311calls.*, weather.prcp
+  FROM hpd311calls
+  JOIN weather
+  ON hpd311calls.created_date = weather.date;"""
+
+# Load query results into the leak_calls data frame
+leak_calls = pd.read_sql(query, engine)
+
+# View the data frame
+print(leak_calls.head())
+
+# Query to get water leak calls and daily precipitation
+query = """
+SELECT hpd311calls.*, weather.prcp
+  FROM hpd311calls
+  JOIN weather
+    ON hpd311calls.created_date = weather.date
+  WHERE hpd311calls.complaint_type = 'WATER LEAK';"""
+
+# Load query results into the leak_calls data frame
+leak_calls = pd.read_sql(query, engine)
+
+# View the data frame
+print(leak_calls.head())
+
+# Query to get heat/hot water call counts by created_date
+query = """
+SELECT hpd311calls.created_date, 
+       COUNT(*)
+  FROM hpd311calls 
+  WHERE hpd311calls.complaint_type = 'HEAT/HOT WATER'
+  GROUP BY hpd311calls.created_date;
+"""
+
+# Query database and save results as df
+df = pd.read_sql(query, engine)
+
+# View first 5 records
+print(df.head())
+
+# Modify query to join tmax and tmin from weather by date
+query = """
+SELECT hpd311calls.created_date, 
+	   COUNT(*), 
+       weather.tmax,
+       weather.tmin
+  FROM hpd311calls 
+       JOIN weather
+       ON hpd311calls.created_date = weather.date
+ WHERE hpd311calls.complaint_type = 'HEAT/HOT WATER' 
+ GROUP BY hpd311calls.created_date;
+ """
+
+# Query database and save results as df
+df = pd.read_sql(query, engine)
+
+# View first 5 records
+print(df.head())
