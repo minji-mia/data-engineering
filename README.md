@@ -2,10 +2,10 @@
 
 In this track, I have discovered how to build an effective data architecture, streamline data processing, and maintain large-scale data systems. In addition to working with Python, I have also grown language skills as I work with Shell, SQL, and Scala, to create data engineering pipelines, automate common file system tasks, and build a high-performance database. Through hands-on exercises, I have added cloud and big data tools such as AWS Boto, PySpark, Spark SQL, and MongoDB, to data engineering toolkit to help create and query databases, wrangle data, and configure schedules to run pipelines. 
 
-1. Data Engineering for Everyone [[Certificate]](https://github.com/minji-mia/data-engineering/blob/main/certificate/Data%20Engineering%20for%20everyone.pdf)
-2. Introduction to Data Engineering [[Certificate]](https://github.com/minji-mia/data-engineering/blob/main/certificate/Introduction%20to%20Data%20Engineering.pdf)
-3. Streamlined Data Ingestion with pandas [[Certificate]](https://github.com/minji-mia/data-engineering/blob/main/certificate/Streamlined%20Data%20Ingestion%20with%20pandas.pdf)
-4. Writing Efficient Python Code
+1. [Data Engineering for Everyone](https://github.com/minji-mia/data-engineering/tree/main/00%20Data%20Engineering%20for%20Everyone) [[Certificate]](https://github.com/minji-mia/data-engineering/blob/main/certificate/Data%20Engineering%20for%20everyone.pdf)
+2. [Introduction to Data Engineering](https://github.com/minji-mia/data-engineering/tree/main/01%20Introduction%20to%20Data%20Engineering) [[Certificate]](https://github.com/minji-mia/data-engineering/blob/main/certificate/Introduction%20to%20Data%20Engineering.pdf)
+3. [Streamlined Data Ingestion with pandas](https://github.com/minji-mia/data-engineering/tree/main/02%20Streamlined%20Data%20Ingestion%20with%20pandas) [[Certificate]](https://github.com/minji-mia/data-engineering/blob/main/certificate/Streamlined%20Data%20Ingestion%20with%20pandas.pdf)
+4. [Writing Efficient Python Code](https://github.com/minji-mia/data-engineering/tree/main/03%20Writing%20Efficient%20Python%20Code)
 5. Writing Functions in Python
 6. Introduction to Shell
 7. Data Processing in Shell
