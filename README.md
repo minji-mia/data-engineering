@@ -5,19 +5,19 @@ In this track, I have discovered how to build an effective data architecture, st
 1. [Data Engineering for Everyone](https://github.com/minji-mia/data-engineering/tree/main/00%20Data%20Engineering%20for%20Everyone) 
 
 <a href="https://github.com/minji-mia/data-engineering/blob/main/certificate/Data%20Engineering%20for%20everyone.pdf" target="_blank">
-<img src=https://img.shields.io/badge/Certificate-Complete-%2303EF62?style=for-the-badge&logo=DataCamp />
+<img src=https://img.shields.io/badge/Certificate-Complete-%2303EF62?style=?flat-square&logo=DataCamp />
 </a>
 
 2. [Introduction to Data Engineering](https://github.com/minji-mia/data-engineering/tree/main/01%20Introduction%20to%20Data%20Engineering) 
 
 <a href="https://github.com/minji-mia/data-engineering/blob/main/certificate/Introduction%20to%20Data%20Engineering.pdf" target="_blank">
-<img src=https://img.shields.io/badge/Certificate-Complete-%2303EF62?style=for-the-badge&logo=DataCamp />
+<img src=https://img.shields.io/badge/Certificate-Complete-%2303EF62?style=flat-square&logo=DataCamp />
 </a>
 
 3. [Streamlined Data Ingestion with pandas](https://github.com/minji-mia/data-engineering/tree/main/02%20Streamlined%20Data%20Ingestion%20with%20pandas) 
 
 <a href="https://github.com/minji-mia/data-engineering/blob/main/certificate/Streamlined%20Data%20Ingestion%20with%20pandas.pdf" target="_blank">
-<img src=https://img.shields.io/badge/Certificate-Complete-%2303EF62?style=for-the-badge&logo=DataCamp />
+<img src=https://img.shields.io/badge/Certificate-Complete-%2303EF62?style=flat-square&logo=DataCamp />
 </a> 
 
 4. [Writing Efficient Python Code](https://github.com/minji-mia/data-engineering/tree/main/03%20Writing%20Efficient%20Python%20Code)
