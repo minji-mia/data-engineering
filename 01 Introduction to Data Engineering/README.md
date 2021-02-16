@@ -19,3 +19,6 @@ Having been exposed to the toolbox of data engineers, it's now time to jump into
 
 ### Case Study: DataCamp
 Cap off all that I learned in the previous three chapters by completing a real-world data engineering use case from DataCamp! I performed and scheduled an ETL process that transforms raw course rating data, into actionable course recommendations for DataCamp students!
+
+## Reference
+https://learn.datacamp.com/courses/introduction-to-data-engineering
